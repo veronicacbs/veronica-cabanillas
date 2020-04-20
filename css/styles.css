@@ -1,0 +1,39 @@
+body {
+  background-color: #e1f2fb;
+  }
+
+  hr {
+
+    border-style: none none dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 3%;
+  }
+
+ h1 {
+    color:#e9b2bc;
+    font-family:'Alata';
+
+ }
+
+ h3 {
+    color: #e9b2bc;
+    font-family:'Alata';
+
+ }
+
+ p{
+   font-family:'Alata';
+ }
+
+ table {
+   font-family:'Alata';
+ }
+
+ ul{
+   font-family:'Alata';
+ }
+
+ a{
+   font-family:'Alata';
+ }
