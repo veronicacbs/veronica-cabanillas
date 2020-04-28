@@ -1,43 +1,143 @@
 body {
-  background-color: #e1f2fb;
-  }
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
 
-  hr {
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Manrope', sans-serif;
+  font-size: 3.125rem;
+  color: #66BFBF;
+  line-height: 2;
+}
 
-    border-style: none none dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 3%;
-  }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding:10px;
+}
 
- h1 {
-    color:#e9b2bc;
-    font-family:'Alata';
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
 
- }
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+  line-height: 2;
+}
 
- h3 {
-    color: #e9b2bc;
-    font-family:'Alata';
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
 
- }
+a:hover {
+  color:#EAF6F6;
+}
 
- p{
-   font-family:'Alata';
- }
+hr {
+  border-style: none none dotted;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  width: 4%;
+  margin: 100px auto;
+}
 
- table {
-   font-family:'Alata';
- }
+/**** CLASS STYLES ****/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
 
- ul{
-   font-family:'Alata';
- }
- 
- ol {
-   font-family:'Alata';
- }
+.middle-container {
+  margin: 100px 0;
+  background-color: white;
+}
 
- a{
-   font-family:'Alata';
- }
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.paragraph_1 {
+  width: 50%;
+  text-align: justify;
+  margin: 30px auto 30px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.computer_image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.people_image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact_message{
+width:40%;
+margin: 40px auto 60px;
+}
+
+.BUTTON_DWO {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #39A0A0);
+  background-image: -moz-linear-gradient(top, #66BFBF, #39A0A0);
+  background-image: -ms-linear-gradient(top, #66BFBF, #39A0A0);
+  background-image: -o-linear-gradient(top, #66BFBF, #39A0A0);
+  background-image: linear-gradient(to bottom, #66BFBF, #39A0A0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 15px;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
